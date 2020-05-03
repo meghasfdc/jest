@@ -24,7 +24,8 @@
     "jest-validate": "^25.2.6",
     "prompts": "^2.0.1",
     "realpath-native": "^2.0.0",
-    "yargs": "^15.3.1"
+    "yargs": "^15.3.1",
+    "snyk": "^1.316.2"
   },
   "devDependencies": {
     "@jest/test-utils": "^25.2.6",
@@ -78,5 +79,10 @@
   "publishConfig": {
     "access": "public"
   },
-  "gitHead": "170eee11d03b0ed5c60077982fdbc3bafd403638"
+  "gitHead": "170eee11d03b0ed5c60077982fdbc3bafd403638",
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
