@@ -12,9 +12,9 @@
     }
   },
   "dependencies": {
-    "@jest/core": "^25.2.7",
+    "@jest/core": "^26.0.0",
     "import-local": "^3.0.2",
-    "jest-cli": "^25.2.7"
+    "jest-cli": "^26.5.0"
   },
   "bin": "./bin/jest.js",
   "engines": {
