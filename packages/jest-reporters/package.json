@@ -27,7 +27,7 @@
     "istanbul-lib-source-maps": "^4.0.0",
     "istanbul-reports": "^3.0.2",
     "jest-haste-map": "^25.2.6",
-    "jest-resolve": "^25.2.6",
+    "jest-resolve": "^26.5.0",
     "jest-util": "^25.2.6",
     "jest-worker": "^25.2.6",
     "slash": "^3.0.0",
