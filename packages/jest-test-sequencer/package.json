@@ -19,8 +19,8 @@
   "dependencies": {
     "@jest/test-result": "^25.2.6",
     "jest-haste-map": "^25.2.6",
-    "jest-runner": "^25.2.7",
-    "jest-runtime": "^25.2.7"
+    "jest-runner": "^26.0.0",
+    "jest-runtime": "^26.0.0"
   },
   "engines": {
     "node": ">= 8.3"
